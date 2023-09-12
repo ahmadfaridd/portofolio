@@ -1,0 +1,146 @@
+body,* {
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+ }
+ @font-face {
+   font-family: ocr;
+   src: url(font/OCR\ A\ Std\ Regular.ttf);
+ }
+ .navbar {
+   float:left;
+   width:100% }
+   
+   .navbar li {
+   float: left; 
+   list-style:none }
+   
+   .navbar li a { 
+   color: #FFFFFF; 
+   text-decoration:none; 
+   padding:10px; 
+   display:block;
+   font-weight:bold;
+   font-family: ocr;
+   }
+   
+   .navbar li a:hover {
+   background: #FFFFFF; 
+   color: #000000
+   }
+   
+   .center ul{
+   width: -moz-fit-content;
+   width: -webkit-fit-content;
+   width: fit-content;
+   margin: auto;
+   }
+   .paragraf {
+  padding: 200px;
+	width: 300px;
+  padding-left: 300px;
+  }
+  .foto {
+   float: right;
+   margin: 5px;
+   display: block;
+   padding: 100px;
+   padding-right: 300px;
+  }
+  .kotak {
+    float: none;
+    background-position: top;
+    padding-top: 50px;
+    padding-left: 15px;
+    width: 1500px;
+    height: 350px;
+  }
+  .about {
+    position: absolute;
+    top: 190px;
+    left: 120px;
+    width: 200px;
+  }
+  .teks_about {
+    position: absolute;
+    top: 120px;
+    left: 70px;
+    font-size: x-large;
+  }
+  .hr {
+    position: absolute;
+    top: 150px;
+    left: 235px;
+  }
+  .text_about {
+    position: absolute;
+    top: 250px;
+    left: 700px;
+  }
+  .box_border {
+    margin: auto;
+  }
+  .box {
+    width:230px;
+    height:230px;
+    border-radius: 5px;
+    border: solid 1px azure;
+    margin: 30px;
+  }
+  .box_border2 {
+    margin: auto;
+  }
+  .box2 {
+    width:230px;
+    height:230px;
+    border-radius: 5px;
+    border: solid 1px azure;
+    margin: 30px;
+  }
+  .foto_portofolio {
+    display: block;
+    margin: auto;
+    width: 180px;
+    height: 70px;
+  }
+  .persegi_panjang {
+    width:500px;
+    height:200px;
+    border-radius: 5px;
+    border: solid 1px azure;
+    margin: 30px;
+  }
+  .judul_blog {
+    margin-top: auto;
+  }
+  .foto_blog {
+    width: 130px;
+    height: 130px;
+    padding-right: 10px;
+  }
+  .hr2 {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+  }
+  .box_blog {
+    float: right;
+    display: block;
+    margin: 25px;
+    width:500px;
+    height:500px;
+    border-radius: 5px;
+    background: #1A1A1A;
+    border: solid 1px azure;
+  }
+  .persegi_panjang2 {
+    width:120px;
+    height:30px;
+    border-radius: 5px;
+    margin-left: 40px;
+    background: #BF9B30;
+  }
+  .footer {
+    font-family: ocr;
+    text-align: center;
+    display: block;
+  }
